@@ -94,5 +94,13 @@ $(document).ready(function (){
 
   });
 
+  // Back to top button
+  $('.back-to-top').on('click', function (){
+
+    'use strict';
+
+    $('html, body').animate({scrollTop: 0}, 600);
+
+  });
 
 });

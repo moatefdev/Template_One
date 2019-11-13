@@ -640,6 +640,29 @@ section.footer {
 
 // End footer section
 
+// Start back to top
+
+.back-to-top {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #6195ff;
+  border-radius: 3px;
+  color: #fff;
+  z-index: 9999;
+  -webkit-transition: .2s opacity;
+  transition: .2s opacity;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+// End back to top
+
 // Class to extend it
 .cover-and-fixed {
   background-attachment: fixed;
